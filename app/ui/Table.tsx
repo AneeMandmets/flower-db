@@ -23,14 +23,14 @@ export default function Table({ flowers }: TableProps) {
 
     return (
         <div className="w-full max-w-4xl">
-            <table className="min-w-full divide-y divide-gray-200">
+            <table className="min-w-full divide-y divide-black-500">
                 <thead className="bg-gray-50">
                     <tr>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nimi</th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Liik</th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Pilt</th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Kirjeldus</th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Lisamiskuupäev</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">Nimi</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">Liik</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">Pilt</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">Kirjeldus</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-black-500 uppercase tracking-wider">Lisamiskuupäev</th>
                     </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
