@@ -1,9 +1,18 @@
 import '@/app/globals.css';
 import Header from './ui/Header';
 import Table from './ui/Table';
-import { flowers } from './data/flowers';
+import { prisma } from '@/app/lib/db'
 
-export default function Home() {
+export default async function Home() {
+  const flowers = await prisma.flower.findMany({
+    include: {
+      species: true
+    },
+    orderBy: {
+      dateAdded: 'desc'
+    }
+  })
+
   return (
     <div>
       <Header />
@@ -11,6 +20,5 @@ export default function Home() {
         <Table flowers={flowers} />
       </div>
     </div>
-    
   );
 }

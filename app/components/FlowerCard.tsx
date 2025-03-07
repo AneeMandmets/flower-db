@@ -21,7 +21,7 @@ export default function FlowerCard({ flower, onClick }: FlowerCardProps) {
         <div className="flower-card" onClick={handleClick}>
             <img src={flower.imageUrl} alt={flower.name} />
             <h3>{flower.name}</h3>
-            <p>{flower.species}</p>
+            <p>{flower.species.name}</p>
         </div>
     )
 }
