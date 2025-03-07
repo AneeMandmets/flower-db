@@ -15,7 +15,6 @@ export default async function Home() {
 
   return (
     <div>
-      <Header />
       <div className="flex flex-col items-center justify-center h-screen">
         <Table flowers={flowers} />
       </div>
