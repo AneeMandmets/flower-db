@@ -19,16 +19,16 @@
     margin-top: 2rem;
     line-height: 20px;
     text-align: center;
+}
 
-    h3 {
-        background-color: #b7f687;
-        border-radius: 10px;
-        font-size: 1.2rem;
-        font-weight: 600;
-        color: #333;
-        cursor: pointer;
-        height: 4rem;
-        vertical-align: middle;
-        padding-top: 1.5rem;
-    }
+.button {
+    background-color: #b7f687;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    height: 4rem;
+    vertical-align: middle;
+    padding-top: 1.5rem;
 }
